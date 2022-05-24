@@ -13,9 +13,7 @@ Implementation of a cache emulator during the course "Projet programmation syst√
   - print_virtual_address(), print_physical_address()
   
 - commands.h:
-    command_word_t
-    command_t
-    program_t
+    command_word_t, command_t, program_t
 - commands.c:
   - program_print()
   - program_init()
@@ -28,23 +26,22 @@ Implementation of a cache emulator during the course "Projet programmation syst√
   - program_free():
   
 - memory.c:
-  - mem_init_from_dumpfile():
+  - mem_init_from_dumpfile():  
       ouverture fichier, allocation m√©moire, lecture fichier, fermeture fichier
   - mem_init_from_description():
       ouverture fichier, allocation m√©moire, lecture PGD page filename
-      -page_file_read():
+      -page_file_read():  
       lecture PUDs, lecture pages data, fermeture fichier
       
 - page_walk.c:
-    read_page_entry():
-    page_walk():
+    - read_page_entry()
+    - page_walk()
+    
 - list.c:
     - is_empty_list, init_list, clear_list
     - push_back, push_front, pop_back, pop_front, move_back
     - print_list, print_reverse_list
     
-- tlb_mng.h:
-- tlb.h:
 - tlb_mng.c:
     - tlb_entry_init()
     - tlb_flush()
@@ -52,7 +49,6 @@ Implementation of a cache emulator during the course "Projet programmation syst√
     - tlb_hit()
     - tlb_search()
     
-- tlb_hrchy.h:
 - tlb_hrchy_mng.c:
     - tlb_entry_init()
     - tlb_flush()
