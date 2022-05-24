@@ -1,5 +1,6 @@
-# cache_emulator_reymondgolfier
-Implementation of a cache emulator during the course "Projet programmation système" ([link][1]).
+# Cache emulator
+Implementation of a cache emulator during the course "Projet programmation système" ([link][1]).  
+Contributors : Ewan Golfier, Jonathan Reymond
 
 
 ## Files content
@@ -55,5 +56,8 @@ Implementation of a cache emulator during the course "Projet programmation syst�
     - tlb_insert()
     - tlb_hit()
     - tlb_search()
+
+
+
 
 [1]:https://edu.epfl.ch/coursebook/fr/projet-programmation-systeme-CS-212 "link"
