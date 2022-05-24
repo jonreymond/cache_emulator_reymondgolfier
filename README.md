@@ -20,17 +20,17 @@ Implementation of a cache emulator during the course "Projet programmation syst√
   - program_add_command()
   - program_shrink()
   - program_read():
-      get_next_nonspace_char()
-      do_D(), do_R(), do_W()
+      get_next_nonspace_char()  
+      do_D(), do_R(), do_W()  
       command_line_read()
   - program_free():
   
 - memory.c:
   - mem_init_from_dumpfile():  
       ouverture fichier, allocation m√©moire, lecture fichier, fermeture fichier
-  - mem_init_from_description():
+  - mem_init_from_description():  
       ouverture fichier, allocation m√©moire, lecture PGD page filename
-      -page_file_read():  
+      -page_file_read():   
       lecture PUDs, lecture pages data, fermeture fichier
       
 - page_walk.c:
@@ -54,6 +54,6 @@ Implementation of a cache emulator during the course "Projet programmation syst√
     - tlb_flush()
     - tlb_insert()
     - tlb_hit()
-    - tlb_search()√•
+    - tlb_search()
 
 [1]:https://edu.epfl.ch/coursebook/fr/projet-programmation-systeme-CS-212 "link"
