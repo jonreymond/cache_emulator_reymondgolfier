@@ -1,5 +1,5 @@
 # Cache emulator
-Implementation of a cache emulator during the course "Projet programmation système" ([link][1]).  
+Implementation of a cache emulator during "Projet programmation système" ([link][1]).  
 Contributors : Ewan Golfier, Jonathan Reymond
 
 
